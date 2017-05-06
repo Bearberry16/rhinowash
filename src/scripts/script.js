@@ -1,5 +1,5 @@
 // Only imported for demo purposes
 import { createNode, pad } from './functions';
-import plane from './plane';
+import scroll from './labb';
 
-plane();
+scroll(); // Initializes all functionality in labb.js.
