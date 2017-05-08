@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "build:js": "browserify -t babelify src/scripts/script.js | uglifyjs > build/script.js",
+    "test": "watchify src/scripts/script.js -t babelify -o build/script.js",
     "watch:js": "watchify -d -t babelify -o build/script.js src/scripts/script.js",
     "build:css": "node-sass src/scss/style.scss --output-style compressed | postcss -u autoprefixer --no-map -o build/style.css",
     "watch:css": "node-sass src/scss/style.scss -w -o build --source-map-embed",
