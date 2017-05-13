@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "scripts": {
     "build:js": "browserify -t babelify src/scripts/script.js | uglifyjs > build/script.js",
-    "test": "watchify src/scripts/script.js -t babelify -o build/script.js",
     "watch:js": "watchify -d -t babelify -o build/script.js src/scripts/script.js",
     "build:css": "node-sass src/scss/style.scss --output-style compressed | postcss -u autoprefixer --no-map -o build/style.css",
     "watch:css": "node-sass src/scss/style.scss -w -o build --source-map-embed",
     "build": "npm run build:js && npm run build:css",
-    "watch": "npm run watch:js & npm run watch:css"
+    "watch": "npm run watch:js & npm run watch:css",
+    "watch:alt": "nodemon -x 'npm run build:js' -i build & npm run watch:css"
   },
   "repository": {
     "type": "git",
@@ -27,6 +27,7 @@
     "eslint-plugin-import": "^2.2.0",
     "http-serve": "^1.0.1",
     "node-sass": "^4.5.2",
+    "nodemon": "^1.11.0",
     "postcss-cli": "^3.2.0",
     "uglify-js": "^2.8.22",
     "watchify": "^3.9.0"
