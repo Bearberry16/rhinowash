@@ -27,7 +27,6 @@ header {
     height: 3rem;
     width: 3rem;
   }
-
 }
 
 .content {
@@ -124,7 +123,6 @@ header {
     position: fixed;
 }
 
-
 .arrow {
   position: absolute;
   width: 69px;
@@ -135,7 +133,7 @@ header {
   width: 250px;
   margin-bottom: -100px;
   animation-name: rotate-protractor;
-  animation-duration: 4s;
+  animation-duration: 6s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
