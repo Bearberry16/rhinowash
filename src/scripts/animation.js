@@ -2,95 +2,84 @@ export default function animation() {
   /*----------------------------------------------------------------------------
     ANIMATION 1 (ANIMATES WHEN IN VIEWPORT)
   ----------------------------------------------------------------------------*/
-  function piggy() {
-    new Vivus('piggy-bank', {
-      duration: 150,
+  function money() {
+    new Vivus('money', {
+      duration: 250,
       animTimingFunction: Vivus.EASEOUT,
       type: 'oneByOne'
     });
   }
-  piggy();
+  money();
 
   /*----------------------------------------------------------------------------
     ANIMATION 2
   ----------------------------------------------------------------------------*/
-  function piggy2() {
-    new Vivus('piggy-bank-2', {
-      duration: 150,
+  function gears() {
+    new Vivus('gears', {
+      duration: 250,
       animTimingFunction: Vivus.EASEOUT,
       type: 'oneByOne'
     });
   }
 
-  piggy2();
+  gears();
 
   /*----------------------------------------------------------------------------
     ANIMATION 3
   ----------------------------------------------------------------------------*/
-  function piggy3() {
-    new Vivus('piggy-bank-3', {
-      duration: 150,
+  function enviroment() {
+    new Vivus('enviroment', {
+      duration: 250,
       animTimingFunction: Vivus.EASEOUT,
       type: 'oneByOne'
     });
   }
-  piggy3();
+  enviroment();
 
   /*----------------------------------------------------------------------------
     ANIMATION 4
   ----------------------------------------------------------------------------*/
-  function piggy4() {
-    new Vivus('piggy-bank-4', {
-      duration: 150,
+  function quality() {
+    new Vivus('quality', {
+      duration: 250,
       animTimingFunction: Vivus.EASEOUT,
       type: 'oneByOne'
     });
   }
-  piggy4();
+  quality();
 
   /*----------------------------------------------------------------------------
     ANIMATION 5
   ----------------------------------------------------------------------------*/
-  function piggy5() {
-    new Vivus('piggy-bank-5', {
-      duration: 150,
+  function puzzle() {
+    new Vivus('puzzle', {
+      duration: 250,
       animTimingFunction: Vivus.EASEOUT,
       type: 'oneByOne'
     });
   }
-  piggy5();
+  puzzle();
   /*----------------------------------------------------------------------------
     ANIMATION 6
   ----------------------------------------------------------------------------*/
-  function piggy6() {
-    new Vivus('piggy-bank-6', {
-      duration: 150,
+  function laboratory() {
+    new Vivus('laboratory', {
+      duration: 250,
       animTimingFunction: Vivus.EASEOUT,
       type: 'oneByOne'
     });
   }
-  piggy6();
+  laboratory();
 
   /*----------------------------------------------------------------------------
     ANIMATION 7
   ----------------------------------------------------------------------------*/
-  function piggy7() {
-    new Vivus('piggy-bank-7', {
-      duration: 150,
+  function thumbup() {
+    new Vivus('thumbup', {
+      duration: 250,
       animTimingFunction: Vivus.EASEOUT,
       type: 'oneByOne'
     });
   }
-  piggy7();
-  /*----------------------------------------------------------------------------
-    ANIMATION 8
-  ----------------------------------------------------------------------------*/
-  function piggy8() {
-    new Vivus('piggy-bank-8', {
-      duration: 150,
-      animTimingFunction: Vivus.EASEOUT,
-      type: 'oneByOne'
-    });
-  }
-  piggy8();
+  thumbup();
 }
