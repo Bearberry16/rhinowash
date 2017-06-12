@@ -119,8 +119,8 @@ header {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-color: blue;
-    opacity: 0.2;
+    background-color: $midnight;
+    opacity: 0.8;
     position: fixed;
 }
 
@@ -130,6 +130,7 @@ header {
   width: 80px;
   padding-bottom: 10px;
 }
+
 .protractor {
   margin-bottom: -150px;
   animation-name: rotate-protractor;
