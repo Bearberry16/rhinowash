@@ -1,7 +1,7 @@
-// Only imported for demo purposes
-import { createNode, pad } from './functions';
-import scroll from './labb';
 import animation from './animation';
+import overallScroll from './overall-scroll';
+import scroll from './labb';
 
-scroll(); // Initializes all functionality in labb.js.
 animation(); // Initializes Vivus functionality.
+scroll(); // Initializes all functionality in labb.js.
+overallScroll(); // Initializes the overall scroll functionality.

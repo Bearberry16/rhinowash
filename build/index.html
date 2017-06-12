@@ -6,6 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Rhinowash</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="apple-touch-icon" sizes="152x152" href="./img/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./img/favicons/favicon-16x16.png">
+  <link rel="manifest" href="./manifest.json">
+  <link rel="mask-icon" href="./img/favicons/safari-pinned-tab.svg" color="#f7b318">
+  <meta name="theme-color" content="#ffffff">
 </head>
 <header>
   <img class="logo" src="./img/rhinowash_head.svg" alt="Rhinowash's logotype">
@@ -15,6 +21,10 @@
 <div id="blue-window">
 </div>
 <body>
+  <div class="protractor-box">
+    <img class="protractor" src="./img/gradskiva.png" alt="Design-element.">
+    <img class="arrow" src="./img/arrow.svg" alt="Design-element.">
+  </div>
   <div id="monitor-box">
     <ul id="monitor">
       <!--<li>-</li>
@@ -31,39 +41,38 @@
     </ul>
   </div>
   <main class="content">
-    <section class="content__introduction">
-      <div class="content__introduction-text">
-        <div class="flex-container">
-          <div class="flex-container__item animation">
-            <svg version="1.1" id="money" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200px" height="200px"
+  <div class="flex-container slide-js">
+    <div class="flex-container__item animation">
+      <svg version="1.1" id="money" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200px" height="200px"
    viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
-              <path fill-rule="nonzero" stroke-width="3" fill="none" stroke="#02F21D" d="M437.019,74.981C388.667,26.628,324.38,0,256,0S123.333,26.628,74.981,74.981C26.629,123.333,0,187.62,0,256
-                s26.629,132.667,74.981,181.019C123.333,485.372,187.62,512,256,512s132.667-26.628,181.019-74.981
-                C485.371,388.667,512,324.38,512,256S485.371,123.333,437.019,74.981z M425.683,425.682
-                C380.358,471.005,320.097,495.967,256,495.967s-124.358-24.962-169.683-70.285C40.994,380.358,16.033,320.097,16.033,256
-                S40.994,131.642,86.317,86.318C131.642,40.995,191.903,16.033,256,16.033s124.358,24.962,169.683,70.285
-                c45.323,45.323,70.284,105.584,70.284,169.682S471.006,380.358,425.683,425.682z"/>
-              <path fill-rule="nonzero" stroke-width="3" fill="none" stroke="#02F21D" d="M256,42.756C138.416,42.756,42.756,138.416,42.756,256S138.416,469.244,256,469.244S469.244,373.584,469.244,256
-                S373.584,42.756,256,42.756z M256,453.211c-108.743,0-197.211-88.469-197.211-197.211S147.257,58.789,256,58.789
-                S453.211,147.258,453.211,256S364.743,453.211,256,453.211z"/>
-              <path fill-rule="nonzero" stroke-width="3" fill="none" stroke="#02F21D" d="M343.912,326.961c-3.316-2.936-8.381-2.629-11.316,0.686c-17.995,20.313-42.16,31.501-68.045,31.501
-                c-44.218,0-81.441-33.254-91.755-78.029h100.306c4.427,0,8.017-3.588,8.017-8.017c0-4.428-3.589-8.017-8.017-8.017H170.325
-                c-0.24-2.995-0.371-6.023-0.371-9.086s0.13-6.091,0.371-9.086h102.777c4.427,0,8.017-3.588,8.017-8.017s-3.589-8.017-8.017-8.017
-                H172.796c10.314-44.775,47.537-78.029,91.755-78.029c25.888,0,50.055,11.191,68.051,31.51c2.936,3.316,8.002,3.624,11.316,0.686
-                c3.315-2.935,3.621-8.002,0.686-11.316c-21.082-23.803-49.512-36.913-80.054-36.913c-53.004,0-97.415,40.368-108.15,94.063
-                h-20.118c-4.427,0-8.017,3.588-8.017,8.017s3.589,8.017,8.017,8.017h17.955c-0.211,2.999-0.319,6.03-0.319,9.086
-                s0.108,6.086,0.319,9.086h-17.955c-4.427,0-8.017,3.588-8.017,8.017c0,4.428,3.589,8.017,8.017,8.017h20.118
-                c10.735,53.695,55.145,94.063,108.15,94.063c30.537,0,58.966-13.107,80.046-36.905
-                C347.534,334.962,347.226,329.897,343.912,326.961z"/>
-          </svg>
-        </div>
-        <div class="flex-container__paragraph">
-          <p class="flex-container__item content__introduction--item-one">Tillhör ni som så många andra ett företag som slentrianmässigt köper in billiga rengöringsprodukter från Kina för att de är… just billiga?</p>
-        </div>
-      </div>
-        <div class="flex-container">
-          <div class="flex-container__item animation">
-           <svg version="1.1" id="gears" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        <path fill-rule="nonzero" stroke-width="3" fill="none" stroke="#02F21D" d="M437.019,74.981C388.667,26.628,324.38,0,256,0S123.333,26.628,74.981,74.981C26.629,123.333,0,187.62,0,256
+        s26.629,132.667,74.981,181.019C123.333,485.372,187.62,512,256,512s132.667-26.628,181.019-74.981
+        C485.371,388.667,512,324.38,512,256S485.371,123.333,437.019,74.981z M425.683,425.682
+        C380.358,471.005,320.097,495.967,256,495.967s-124.358-24.962-169.683-70.285C40.994,380.358,16.033,320.097,16.033,256
+        S40.994,131.642,86.317,86.318C131.642,40.995,191.903,16.033,256,16.033s124.358,24.962,169.683,70.285
+        c45.323,45.323,70.284,105.584,70.284,169.682S471.006,380.358,425.683,425.682z"/>
+        <path fill-rule="nonzero" stroke-width="3" fill="none" stroke="#02F21D" d="M256,42.756C138.416,42.756,42.756,138.416,42.756,256S138.416,469.244,256,469.244S469.244,373.584,469.244,256
+        S373.584,42.756,256,42.756z M256,453.211c-108.743,0-197.211-88.469-197.211-197.211S147.257,58.789,256,58.789
+        S453.211,147.258,453.211,256S364.743,453.211,256,453.211z"/>
+        <path fill-rule="nonzero" stroke-width="3" fill="none" stroke="#02F21D" d="M343.912,326.961c-3.316-2.936-8.381-2.629-11.316,0.686c-17.995,20.313-42.16,31.501-68.045,31.501
+        c-44.218,0-81.441-33.254-91.755-78.029h100.306c4.427,0,8.017-3.588,8.017-8.017c0-4.428-3.589-8.017-8.017-8.017H170.325
+        c-0.24-2.995-0.371-6.023-0.371-9.086s0.13-6.091,0.371-9.086h102.777c4.427,0,8.017-3.588,8.017-8.017s-3.589-8.017-8.017-8.017
+        H172.796c10.314-44.775,47.537-78.029,91.755-78.029c25.888,0,50.055,11.191,68.051,31.51c2.936,3.316,8.002,3.624,11.316,0.686
+        c3.315-2.935,3.621-8.002,0.686-11.316c-21.082-23.803-49.512-36.913-80.054-36.913c-53.004,0-97.415,40.368-108.15,94.063
+        h-20.118c-4.427,0-8.017,3.588-8.017,8.017s3.589,8.017,8.017,8.017h17.955c-0.211,2.999-0.319,6.03-0.319,9.086
+        s0.108,6.086,0.319,9.086h-17.955c-4.427,0-8.017,3.588-8.017,8.017c0,4.428,3.589,8.017,8.017,8.017h20.118
+        c10.735,53.695,55.145,94.063,108.15,94.063c30.537,0,58.966-13.107,80.046-36.905
+        C347.534,334.962,347.226,329.897,343.912,326.961z"/>
+      </svg>
+    </div> <!-- .flex-container__item .animation -->
+    <div class="flex-container__paragraph">
+      <p class="flex-container__item content__introduction--item-one">Tillhör ni som så många andra ett företag som slentrianmässigt köper in billiga rengöringsprodukter från Kina för att de är… just billiga?</p>
+        </div> <!-- .flex-container__paragraph -->
+  </div> <!-- .flex-container .slide-js -->
+
+  <div class="flex-container slide-js">
+    <div class="flex-container__item animation">
+      <svg version="1.1" id="gears" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
    width="200px" height="200px" viewBox="0 0 932.179 932.179" style="enable-background:new 0 0 932.179 932.179;"
    xml:space="preserve">
               <path fill-rule="nonzero" stroke-width="4" fill="none" stroke="#02F21D" d="M61.2,341.538c4.9,16.8,11.7,33,20.3,48.2l-24.5,30.9c-8,10.1-7.1,24.5,1.9,33.6l42.2,42.2c9.1,9.1,23.5,9.899,33.6,1.899
@@ -98,42 +107,49 @@
                 c36.3,0.4,65.399,30.301,65,66.601c-0.4,36.3-30.301,65.399-66.601,65c-36.3-0.4-65.399-30.3-65-66.601
                 C302.1,704.538,332,675.438,368.3,675.837z"/>
             </svg>
-          </div>
-          <p class="content__introduction--item-two">Kan det vara så att era rengöringsprodukter egentligen inte är optimerade för de maskiner ni använder vilket istället leder till onödigt långsamma tvättprocesser och med det ökade kostnader för bolaget?</p>
-        </div>
-        <div class="flex-container">
-          <div class="flex-container__item animation">
-            <svg version="1.1" id="enviroment" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-              width="200px" height="200px" viewBox="0 0 612 612" style="enable-background:new 0 0 612 612;" xml:space="preserve">
-              <path fill-rule="nonzero" stroke-width="3" fill="none" stroke="#02F21D" d="M3.18,201.694l38.31,29.933L5.433,300.7c-18.028,31.851,12.943,62.878,32.676,73.679
-              c19.426,10.632,49.577,11.896,77.746,11.513l50.704-82.889l38.31,20.722l-66.479-123.181L3.18,201.694z M8.813,370.78
-              l82.253,151.962c16.526,21.105,47.7,26.094,80,25.327h86.76V404.166l-164.506-1.151C67.781,404.548,34.353,399.176,8.813,370.78z
-              M526.309,90.732l-44.752,18.995l-42.933-65.022c-19.116-31.209-61.27-19.164-80.282-7.141
-              c-18.716,11.836-34.44,37.594-47.761,62.417l47.914,84.532l-36.697,23.46l139.966,1.576L526.309,90.732z M375.692,13.686
-              l-172.786-1.732c-26.471,4.221-45.948,29.067-60.936,57.691l-42.062,75.882l125.861,69.766L306.53,71.97
-              C317.569,48.887,338.474,22.256,375.692,13.686z M383.208,600.046l5.082-48.351l77.685-6.025
-              c36.563-1.59,46.465-44.297,45.167-66.755c-1.277-22.108-16.184-48.348-31.437-72.033l-97.162,0.925l-2.729-43.47l-69.235,121.653
-              L383.208,600.046z M523.615,505.667l85.283-150.281c9.142-25.199-3.146-54.28-20.915-81.266l-45.976-73.577l-122.037,76.257
-              l86.199,140.12C521.006,437.765,534.163,468.959,523.615,505.667z"/>
-            </svg>
-          </div>
-          <p class="content__introduction--item-three">Handlar det dessutom om rengöringsprodukter som redan är eller inom kort kommer att bli förbjudna inom EU då de inte lever upp till de högt ställda miljökrav som finns i unionen?</p>
-        </div>
-    </section> <!-- .content__introduction -->
-    <section class="content__economy">
-      <div class="flex-container">
-        <div class="flex-container__item animation">
-         <svg version="1.1" id="quality" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470 470" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 470 470" width="200px" height="200px">
+    </div> <!-- .flex-container__item .animation -->
+    <div class="flex-container__paragraph">
+      <p class="content__introduction--item-two">Kan det vara så att era rengöringsprodukter egentligen inte är optimerade för de maskiner ni använder vilket istället leder till onödigt långsamma tvättprocesser och med det ökade kostnader för bolaget?</p>
+        </div> <!-- .flex-container__paragraph -->
+  </div> <!-- .flex-container .slide-js -->
+
+    <div class="flex-container slide-js">
+    <div class="flex-container__item animation">
+      <svg version="1.1" id="enviroment" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+width="200px" height="200px" viewBox="0 0 612 612" style="enable-background:new 0 0 612 612;" xml:space="preserve">
+    <path fill-rule="nonzero" stroke-width="3" fill="none" stroke="#02F21D" d="M3.18,201.694l38.31,29.933L5.433,300.7c-18.028,31.851,12.943,62.878,32.676,73.679
+    c19.426,10.632,49.577,11.896,77.746,11.513l50.704-82.889l38.31,20.722l-66.479-123.181L3.18,201.694z M8.813,370.78
+    l82.253,151.962c16.526,21.105,47.7,26.094,80,25.327h86.76V404.166l-164.506-1.151C67.781,404.548,34.353,399.176,8.813,370.78z
+    M526.309,90.732l-44.752,18.995l-42.933-65.022c-19.116-31.209-61.27-19.164-80.282-7.141
+    c-18.716,11.836-34.44,37.594-47.761,62.417l47.914,84.532l-36.697,23.46l139.966,1.576L526.309,90.732z M375.692,13.686
+    l-172.786-1.732c-26.471,4.221-45.948,29.067-60.936,57.691l-42.062,75.882l125.861,69.766L306.53,71.97
+    C317.569,48.887,338.474,22.256,375.692,13.686z M383.208,600.046l5.082-48.351l77.685-6.025
+    c36.563-1.59,46.465-44.297,45.167-66.755c-1.277-22.108-16.184-48.348-31.437-72.033l-97.162,0.925l-2.729-43.47l-69.235,121.653
+    L383.208,600.046z M523.615,505.667l85.283-150.281c9.142-25.199-3.146-54.28-20.915-81.266l-45.976-73.577l-122.037,76.257
+    l86.199,140.12C521.006,437.765,534.163,468.959,523.615,505.667z"/>
+</svg>
+    </div> <!-- .flex-container__item .animation -->
+    <div class="flex-container__paragraph">
+      <p class="content__introduction--item-three">Handlar det dessutom om rengöringsprodukter som redan är eller inom kort kommer att bli förbjudna inom EU då de inte lever upp till de högt ställda miljökrav som finns i unionen?</p>
+        </div> <!-- .flex-container__paragraph -->
+  </div> <!-- .flex-container .slide-js -->
+
+    <div class="flex-container slide-js">
+    <div class="flex-container__item animation">
+      <svg version="1.1" id="quality" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470 470" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 470 470" width="200px" height="200px">
               <path fill-rule="nonzero" stroke-width="2" fill="none" stroke="#02F21D" d="m429.591,418.378l-62.223-150.218c-1.585-3.826-5.972-5.645-9.799-4.059s-5.645,5.973-4.059,9.799l56.251,135.801-51.309-14.867c-3.368-0.977-6.965,0.513-8.656,3.586l-25.769,46.793-60.357-145.716c69.663-13.434 122.447-74.853 122.447-148.378 0.001-83.327-67.79-151.119-151.117-151.119s-151.119,67.792-151.119,151.119c0,33.751 11.124,64.951 29.896,90.133l-73.368,177.126c-1.103,2.664-0.582,5.724 1.341,7.872 1.922,2.148 4.907,3.004 7.676,2.202l60.533-17.541 30.4,55.207c1.324,2.403 3.847,3.882 6.568,3.882 0.138,0 0.277-0.004 0.416-0.011 2.879-0.16 5.411-1.955 6.515-4.619l58.136-140.353c1.585-3.827-0.232-8.214-4.059-9.799-3.827-1.585-8.214,0.232-9.799,4.059l-52.165,125.936-25.767-46.793c-1.692-3.073-5.291-4.563-8.657-3.586l-51.308,14.867 64.397-155.469c27.598,29.52 66.86,48.005 110.364,48.005 4.491,0 8.933-0.209 13.325-0.594l67.818,163.727c1.103,2.664 3.636,4.459 6.514,4.618 0.14,0.008 0.278,0.012 0.417,0.012 2.721,0 5.244-1.479 6.567-3.882l30.401-55.207 60.533,17.541c2.771,0.803 5.753-0.054 7.676-2.202 1.923-2.148 2.443-5.208 1.34-7.872zm-330.71-267.259c2.84217e-14-75.056 61.063-136.119 136.119-136.119 75.056,0 136.118,61.063 136.118,136.119s-61.062,136.118-136.118,136.118c-75.056,0-136.119-61.062-136.119-136.118z"/>
               <path fill-rule="nonzero" stroke-width="2" fill="none" stroke="#02F21D" d="m321.659,122.961c-0.863-2.658-3.135-4.616-5.892-5.079l-50.467-8.469-23.649-45.379c-1.292-2.479-3.855-4.034-6.651-4.034-2.795,0-5.359,1.555-6.651,4.034l-23.65,45.379-50.466,8.469c-2.757,0.462-5.028,2.42-5.892,5.079-0.864,2.659-0.178,5.577 1.781,7.572l35.85,36.515-7.54,50.614c-0.412,2.765 0.748,5.529 3.01,7.173 2.26,1.642 5.249,1.891 7.751,0.646l45.807-22.812 45.806,22.812c1.059,0.527 2.203,0.787 3.343,0.787 1.557,0 3.104-0.484 4.409-1.432 2.262-1.644 3.422-4.408 3.01-7.173l-7.539-50.614 35.85-36.516c1.958-1.995 2.644-4.913 1.78-7.572zm-50.951,36.244c-1.648,1.679-2.413,4.033-2.066,6.359l5.97,40.074-36.268-18.061c-1.054-0.524-2.198-0.787-3.344-0.787-1.145,0-2.291,0.262-3.343,0.787l-36.268,18.061 5.97-40.074c0.347-2.326-0.418-4.681-2.066-6.359l-28.385-28.912 39.957-6.706c2.32-0.389 4.323-1.844 5.41-3.93l18.725-35.929 18.725,35.93c1.088,2.086 3.09,3.541 5.41,3.93l39.958,6.706-28.385,28.911z"/>
               <path fill-rule="nonzero" stroke-width="2" fill="none" stroke="#02F21D" d="m348.612,158.684c-4.107-0.549-7.877,2.343-8.42,6.45-6.957,52.507-52.18,92.104-105.192,92.104-58.514,0-106.119-47.604-106.119-106.119s47.605-106.119 106.119-106.119c53.013,0 98.235,39.596 105.192,92.104 0.543,4.107 4.32,7.001 8.42,6.45 4.105-0.544 6.994-4.314 6.449-8.42-7.94-59.936-59.555-105.134-120.061-105.134-66.785,0-121.119,54.333-121.119,121.119s54.334,121.118 121.119,121.118c60.506,0 112.121-45.198 120.062-105.134 0.544-4.105-2.344-7.875-6.45-8.419z"/>
           </svg>
-        </div>
-        <p class="flex-container__item content__economy--item-one">På Rhinowash vet vi att ni verkar i en bransch där varje krona spelar roll samtidigt som kvalitet är a och o. Vi har därför under lång tid utvecklat, förbättrat och effektiviserat våra produkter så att vi idag kan erbjuda en hel serie rengöringsprodukter som är internationellt sätt prisvärd utan att samtidigt tumma på kvaliteten.</p>
-      </div>
-      <div class="flex-container">
-        <div class="flex-container__item animation">
-          <svg version="1.1" id="puzzle" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    </div> <!-- .flex-container__item .animation -->
+    <div class="flex-container__paragraph">
+      <p class="flex-container__item content__economy--item-one">På Rhinowash vet vi att ni verkar i en bransch där varje krona spelar roll samtidigt som kvalitet är a och o. Vi har därför under lång tid utvecklat, förbättrat och effektiviserat våra produkter så att vi idag kan erbjuda en hel serie rengöringsprodukter som är internationellt sätt prisvärd utan att samtidigt tumma på kvaliteten.</p>
+        </div> <!-- .flex-container__paragraph -->
+  </div> <!-- .flex-container .slide-js -->
+
+    <div class="flex-container slide-js">
+    <div class="flex-container__item animation">
+      <svg version="1.1" id="puzzle" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
    width="200px" height="200px" viewBox="0 0 195.892 195.892" style="enable-background:new 0 0 195.892 195.892;" xml:space="preserve">
             <path fill-rule="nonzero" stroke-width="1" fill="none" stroke="#02F21D" d="M193.392,195.681H97.953c-0.005,0-0.011,0-0.015,0H2.5c-1.381,0-2.5-1.119-2.5-2.5V2.71c0-1.381,1.119-2.5,2.5-2.5h95.438
               c0.005,0,0.01,0,0.015,0h95.438c1.381,0,2.5,1.119,2.5,2.5v190.471C195.892,194.562,194.772,195.681,193.392,195.681z
@@ -159,14 +175,15 @@
               c0.01,0.092,0.016,0.186,0.016,0.28v29.04h24.841c-1.457-3.01-2.22-6.308-2.231-9.732l-0.001-0.219
               c0-12.468,10.143-22.61,22.61-22.61s22.61,10.143,22.61,22.61v0.141C168.282,88.884,167.52,92.209,166.051,95.243z"/>
           </svg>
-        </div>
-        <p class="content__economy--item-two">Vi är också medvetna om att tid är pengar och har därför lagt ner stor kraft på att ta fram en helhetslösning. Till skillnad från många andra aktörer på marknaden kan vi erbjuda både rengöringsmaskiner och rengöringsmedel. Det innebär att ni hos oss får maskiner och medel som är optimerade för effektivisera tvättprocessen. Det leder till snabbare tvättider och minskade kostnader.</p>
-      </div>
-    </section> <!-- .content__economy -->
-    <section class="content__enviroment">
-      <div class="flex-container">
-        <div class="flex-container__item animation">
-          <svg version="1.1" id="laboratory" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    </div> <!-- .flex-container__item .animation -->
+    <div class="flex-container__paragraph">
+      <p class="content__economy--item-two">Vi är också medvetna om att tid är pengar och har därför lagt ner stor kraft på att ta fram en helhetslösning. Till skillnad från många andra aktörer på marknaden kan vi erbjuda både rengöringsmaskiner och rengöringsmedel. Det innebär att ni hos oss får maskiner och medel som är optimerade för effektivisera tvättprocessen. Det leder till snabbare tvättider och minskade kostnader.</p>
+        </div> <!-- .flex-container__paragraph -->
+  </div> <!-- .flex-container .slide-js -->
+
+    <div class="flex-container slide-js">
+    <div class="flex-container__item animation">
+      <svg version="1.1" id="laboratory" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
    width="200px" height="200px" viewBox="0 0 496 496" style="enable-background:new 0 0 496 496;" xml:space="preserve">
             <path fill-rule="nonzero" stroke-width="2" fill="none" stroke="#02F21D" d="M448,318.36V208h16v-16h-96v16h16v110.36l-13.152,30.696c-14.136-14.728-32.248-25.12-52.28-29.568L256,305.584v-19.768
               c24.176-17.448,40-45.784,40-77.816v-21.576l12.904-19.36C321.4,148.32,328,126.512,328,104c0-28.336-21.16-51.824-48.504-55.504
@@ -195,31 +212,35 @@
             <path fill-rule="nonzero" stroke-width="2" fill="none" stroke="#02F21D" d="M392,152c17.648,0,32-14.352,32-32s-14.352-32-32-32s-32,14.352-32,32S374.352,152,392,152z M392,104
               c8.824,0,16,7.176,16,16s-7.176,16-16,16c-8.824,0-16-7.176-16-16C376,111.176,383.176,104,392,104z"/>
           </svg>
-        </div>
-        <p class="content__enviroment--item-one">Arbetet för en bättre och mer hållbar värld är en central fråga i Rhinowashs verksamhet. Vi arbetar därför ständigt med att utveckla våra produkter på ett sätt som gör att vi kan minska påverkan på miljön.</p>
-      </div>
-      <div class="flex-container">
-        <div class="flex-container__item animation">
-          <svg version="1.1" id="thumbup" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    </div> <!-- .flex-container__item .animation -->
+    <div class="flex-container__paragraph">
+      <p class="content__enviroment--item-one">Arbetet för en bättre och mer hållbar värld är en central fråga i Rhinowashs verksamhet. Vi arbetar därför ständigt med att utveckla våra produkter på ett sätt som gör att vi kan minska påverkan på miljön.</p>
+        </div> <!-- .flex-container__paragraph -->
+  </div> <!-- .flex-container .slide-js -->
+
+    <div class="flex-container slide-js">
+    <div class="flex-container__item animation">
+      <svg version="1.1" id="thumbup" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
    width="200px" height="200px" viewBox="0 0 535.5 535.5" style="enable-background:new 0 0 535.5 535.5;" xml:space="preserve"
   >
-            <path fill-rule="nonzero" stroke-width="2" fill="none" stroke="#02F21D" d="M535.5,258.188c0-26.775-21.037-47.812-47.812-47.812h-114.75C392.062,114.75,382.5,0,306,0s-36.338,91.8-66.938,149.175
-              c-30.6,57.375-86.062,61.2-86.062,61.2h-9.562H38.25c-21.038,0-38.25,17.212-38.25,38.25V497.25
-              c0,21.037,17.212,38.25,38.25,38.25h105.188h110.925h156.825c26.775,0,47.812-21.037,47.812-47.812
-              c0-11.475-3.825-21.037-9.562-28.688c26.775,0,47.812-21.037,47.812-47.812c0-11.475-3.825-22.95-11.475-32.513
-              c19.125-7.649,30.6-24.862,30.6-43.987c0-11.475-3.825-22.95-11.475-32.513C522.112,296.438,535.5,279.225,535.5,258.188z
-               M133.875,516.375H38.25c-9.562,0-19.125-9.562-19.125-19.125V248.625c0-11.475,7.65-19.125,19.125-19.125h95.625V516.375z
-               M487.688,286.875H420.75V306h47.812c15.3,0,28.688,13.388,28.688,28.688s-13.388,28.688-28.688,28.688h-66.938V382.5h47.812
-              c15.3,0,28.688,13.388,28.688,28.688s-13.388,28.688-28.688,28.688H382.5V459h28.688c15.3,0,28.688,13.388,28.688,28.688
-              s-13.388,28.688-28.688,28.688h-70.763H153c0,0,0-248.625,0-286.875c28.688,0,53.55-19.125,53.55-19.125
-              c17.213-11.475,36.338-26.775,49.726-51.638C284.963,101.362,250.537,19.125,306,19.125c57.375,0,65.025,93.712,47.812,191.25
-              l-3.825,19.125h137.7c15.3,0,28.688,13.388,28.688,28.688S502.987,286.875,487.688,286.875z"/>
-        </svg>
-        </div>
-        <p class="content__enviroment--item-two">Vi är därför extra stolta att vi kan leva upp det de hårt ställda miljökrav som finns i EU. Det gör att ni med Rhinowash som leverantör kan vara säkra på att alltid använda produkter som ligger i framkant på miljöområdet och aldrig riskera att använda produkter som är eller inom kort kommer att bli förbjudnas.</p>
-      </div>
-    </section> <!-- .content__enviroment -->
-  </main> <!-- .content -->
+              <path fill-rule="nonzero" stroke-width="2" fill="none" stroke="#02F21D" d="M535.5,258.188c0-26.775-21.037-47.812-47.812-47.812h-114.75C392.062,114.75,382.5,0,306,0s-36.338,91.8-66.938,149.175
+                c-30.6,57.375-86.062,61.2-86.062,61.2h-9.562H38.25c-21.038,0-38.25,17.212-38.25,38.25V497.25
+                c0,21.037,17.212,38.25,38.25,38.25h105.188h110.925h156.825c26.775,0,47.812-21.037,47.812-47.812
+                c0-11.475-3.825-21.037-9.562-28.688c26.775,0,47.812-21.037,47.812-47.812c0-11.475-3.825-22.95-11.475-32.513
+                c19.125-7.649,30.6-24.862,30.6-43.987c0-11.475-3.825-22.95-11.475-32.513C522.112,296.438,535.5,279.225,535.5,258.188z
+                 M133.875,516.375H38.25c-9.562,0-19.125-9.562-19.125-19.125V248.625c0-11.475,7.65-19.125,19.125-19.125h95.625V516.375z
+                 M487.688,286.875H420.75V306h47.812c15.3,0,28.688,13.388,28.688,28.688s-13.388,28.688-28.688,28.688h-66.938V382.5h47.812
+                c15.3,0,28.688,13.388,28.688,28.688s-13.388,28.688-28.688,28.688H382.5V459h28.688c15.3,0,28.688,13.388,28.688,28.688
+                s-13.388,28.688-28.688,28.688h-70.763H153c0,0,0-248.625,0-286.875c28.688,0,53.55-19.125,53.55-19.125
+                c17.213-11.475,36.338-26.775,49.726-51.638C284.963,101.362,250.537,19.125,306,19.125c57.375,0,65.025,93.712,47.812,191.25
+                l-3.825,19.125h137.7c15.3,0,28.688,13.388,28.688,28.688S502.987,286.875,487.688,286.875z"/>
+          </svg>
+    </div> <!-- .flex-container__item .animation -->
+    <div class="flex-container__paragraph">
+      <p class="content__enviroment--item-two">Vi är därför extra stolta att vi kan leva upp det de hårt ställda miljökrav som finns i EU. Det gör att ni med Rhinowash som leverantör kan vara säkra på att alltid använda produkter som ligger i framkant på miljöområdet och aldrig riskera att använda produkter som är eller inom kort kommer att bli förbjudnas.</p>
+        </div> <!-- .flex-container__paragraph -->
+  </div> <!-- .flex-container .slide-js -->
+</main> <!-- .content -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/vivus/0.4.0/vivus.min.js"></script>
   <script src="script.js"></script>
 </body>
