@@ -31,5 +31,8 @@
     "postcss-cli": "^3.2.0",
     "uglify-js": "^2.8.22",
     "watchify": "^3.9.0"
+  },
+  "dependencies": {
+    "vivus": "^0.4.1"
   }
 }
