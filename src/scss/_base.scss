@@ -49,6 +49,12 @@ header {
     min-width: 50%;
   }
 
+  .flex-container__item-1 {
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+  }
+
   .placeholder {
     background-image: url("http://i.imgur.com/ybW8iwq.jpg");
     background-position: center center;
