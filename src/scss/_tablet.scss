@@ -1,1 +1,95 @@
 // Tablet.scss
+.flex-container {
+  flex-direction: row;
+  justify-content: center;
+
+  .flex-container__item {
+    box-sizing: border-box;
+    min-width: 40%;
+  }
+
+  .animation {
+    text-align: center;
+
+    svg {
+      height: 250px;
+      width: 250px;
+    }
+  }
+
+  p {
+    padding-left: 1rem;
+    text-align: left;
+  }
+
+  p::first-line {
+    font-size: 2rem;
+  }
+}
+
+/*------------------------------------------------------------------------------
+  ARROW AND PROTRACTOR
+------------------------------------------------------------------------------*/
+.arrow {
+  padding-bottom: 10px;
+  position: absolute;
+  width: 69px;
+}
+
+.protractor {
+  animation-name: rotate-protractor;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  margin-bottom: -100px;
+  width: 250px;
+}
+.protractor-box {
+  align-items: flex-end;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100%;
+  position: fixed;
+}
+
+@keyframes rotate-protractor {
+    0%  {
+      transform: rotate(0deg);
+    }
+    100%  {
+      transform: rotate(60deg);
+    }
+}
+/*------------------------------------------------------------------------------
+  FOOTER
+------------------------------------------------------------------------------*/
+footer {
+
+  .footer__container {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .footer__container-item1 {
+    margin-right: 4rem;
+    width: 60%;
+
+    p {
+      font-size: 1rem;
+    }
+  }
+
+  .footer__container-item2 {
+    margin-top: 0;
+    width: 30%;
+  }
+
+  .footer__container-heading {
+    text-align: left;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 0;
+  }
+}
