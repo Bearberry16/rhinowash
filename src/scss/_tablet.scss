@@ -1,4 +1,8 @@
 // Tablet.scss
+.content__main {
+  width: 70vw;
+}
+
 .flex-container {
   flex-direction: row;
   justify-content: center;
@@ -28,8 +32,13 @@
 }
 
 /*------------------------------------------------------------------------------
-  ARROW AND PROTRACTOR
+  ARROW, MONITOR BOX AND PROTRACTOR
 ------------------------------------------------------------------------------*/
+
+#monitor-box {
+  opacity: 1;
+}
+
 .arrow {
   padding-bottom: 10px;
   position: absolute;
@@ -61,6 +70,7 @@
       transform: rotate(60deg);
     }
 }
+
 /*------------------------------------------------------------------------------
   FOOTER
 ------------------------------------------------------------------------------*/
